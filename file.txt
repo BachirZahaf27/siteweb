@@ -1,0 +1,91 @@
+/assets/{
+    libs/*
+    js/*
+    css/*
+    img/*
+    pdf/*
+    doc/*
+}
+~~~~~~~~~~URL~~~~~~~~~~
+├──                         #Accueil
+├── index                   #Accueil
+├── 404                     #Erreur quand il trouve pas la page
+├── signin                  #pour se Connecter dans le site et s'idantifier
+├── signup                  #pour cree un compt
+├── logout                  #deconecter
+├── signout                 #deconecter
+├── upload                  #cree un fichier
+├── file
+│   ├── pdf
+│   │   └──%FILES%          #le fichier pdf
+│   ├── doc
+│   │   └──%FILES%          #le fichier doc
+│   ├── docx
+│   │   └──%FILES%          #le fichier docx
+│   ├── ppt
+│   │   └──%FILES%          #le fichier ppt
+│   └── %ext%...            #se change selon l'extention de fichier
+│       └──%FILES%          #le fichier autre type
+└── %year%                  #les fichier d'un niveux #se change de 1-3#
+    ├── cours               #les cours d'un niveux
+    │   ├── 1               #les cours d'un niveux s1
+    │   └── 2               #les cours d'un niveux s2
+    ├── TD                  #les TD d'un niveux
+    │   ├── 1               #les TD d'un niveux s1
+    │   └── 2               #les TD d'un niveux s2
+    ├── TP                  #les TP d'un niveux
+    │   ├── 1               #les TP d'un niveux s1
+    │   └── 2               #les TP d'un niveux s2
+    ├── test                #les test d'un niveux
+    │   ├── 1               #les test d'un niveux s1
+    │   └── 2               #les test d'un niveux s2
+    └── examin              #les examin d'un niveux
+        ├── 1               #les examin d'un niveux s1
+        └── 2               #les examin d'un niveux s2
+~~~~~~~~~config~~~~~~~~~
+├── .gitignore              #pour "git"
+├── .htaccess               #pour "Apache HTTP Server"
+├── config.php              #les donnais du site et d'autre
+├── router.php              #gérer les url
+├── assets                  #
+│   ├── img
+│   │   └──%FILES%
+│   ├── js
+│   │   └──%FILES%
+│   ├── css
+│   │   └──%FILES%
+│   ├── libs
+│   │   └──%FILES%
+│   └── %ext%...
+│       └──%FILES%
+├── include
+│   ├── DB.php              #gérer la base de donnais
+│   ├── html.php            #gérer les code html et ces tags
+│   ├── login.php           #gérer l'utilisateur
+│   ├── route.php           #traitement des url
+│   └── router.php          #des func pour gérer les url
+├── partials                #les partie de template
+│   ├── footer.php
+│   ├── head.php
+│   └── header.php
+├── upload
+│   └── %FILES%             #les fichier ajouter
+└── views                   #les fichier de template
+    ├── 404.php
+    ├── detail.php
+    ├── driver.php
+    ├── file.php
+    ├── index.php
+    ├── signin.php
+    ├── signup.php
+    └── upload.php
+
+/************************************/
+├── connect.php
+├── connexion.php
+├── controlleur.php
+├── modele.php
+├── recherche.php
+└── templates
+    ├── layout.php
+    └── listeamis.php

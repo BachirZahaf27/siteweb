@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !assets/(.*)
+RewriteRule ^(.*)$ router.php?url=$1 [QSA,L]

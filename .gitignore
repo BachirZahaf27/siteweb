@@ -1,0 +1,35 @@
+# Folders
+logs/*
+build/*
+node_modules/*
+upload/*
+tmp/*
+.settings/
+build/
+
+#outher
+*.tmp
+*.log
+
+# eBook build output
+*.epub
+*.mobi
+*.pdf
+*.docs
+docx
+odp
+ods
+odt
+ppt
+pptx
+
+# archive
+jar
+rar
+
+#vedio
+mpeg
+ogv
+
+#audio
+oga
